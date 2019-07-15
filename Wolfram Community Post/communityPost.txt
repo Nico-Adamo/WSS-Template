@@ -127,12 +127,3 @@ Yet one may consider these solutions, even if efficient, to be "band-aids" on fu
   [6]: https://community.wolfram.com//c/portal/getImageAttachment?filename=histoDif.png&userId=783052
   [7]: https://community.wolfram.com//c/portal/getImageAttachment?filename=mnistShield.png&userId=783052
   [8]: https://community.wolfram.com//c/portal/getImageAttachment?filename=adversarialTransfer.png&userId=783052
-
-
-  split each (image-> zoom level) pair into a test and training dataset, and train a model to predict the zoom level given the image.
-  You're splitting each pair into a test and training set?
-
-  Explain what SELU activation is. Even most machine learning people don't use it
-
-  the training speed works best at its default.
-  Unless there's some property of NetTrain I don't know about, I think you mean "Learning rate", which isn't about how fast you train it but how large your training steps are with respect to the gradient. 
